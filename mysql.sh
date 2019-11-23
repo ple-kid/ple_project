@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 tar -zxf mysql-5.6.35-linux-glibc2.5-x86_64.tar.gz
 mv mysql-5.6.35-linux-glibc2.5-x86_64 /usr/local/mysql
 useradd -r -s /sbin/nologin mysql
