@@ -11,3 +11,4 @@ service mysql start
 # 追加/usr/local/mysql/bin目录到环境变量
 echo 'export PATH=$PATH:/usr/local/mysql/bin' >> /etc/profile
 source /etc/profile
+echo "你看还需要source7一下/etc/profile文件"
